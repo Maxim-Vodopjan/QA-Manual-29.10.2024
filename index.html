@@ -1,28 +1,35 @@
+<link rel="stylesheet" type="text/css" href="style.css">
 <!DOCTYPE html>
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About me and my pets</title>
+    <style>
+        h1 { font-size: 32px; }
+        h2 { font-size: 28px; }
+        h3 { font-size: 24px; }
+        h4 { font-size: 20px; }
+    </style>
 </head>
 <body>
-    <h1>About me</h1>
-    <p>Hello there! My name is Maxim, and i have a cat (Mixer) and of course my wife (Inna).</p>
-    <a href="photo/IMG_20210608_152024.jpg"><img src="photo/IMG_20210608_152024.jpg" alt="IMG_20210608_152024.jpg" width="300"></a>
-    <a href="photo/IMG_20211205_223915_Bokeh.jpg"><img src="photo/IMG_20211205_223915_Bokeh.jpg" alt="IMG_20211205_223915_Bokeh.jpg" width="300"></a>
+    <h1 id="about">About me</h1>
+    <p class="description">Hello there! My name is Maxim, and I have a cat (Mixer) and of course my wife (Inna).</p>
+    <a href="photo/IMG_20210608_152024.jpg"><img src="photo/IMG_20210608_152024.jpg" alt="IMG_20210608_152024.jpg" width="300" class="photo"></a>
+    <a href="photo/IMG_20211205_223915_Bokeh.jpg"><img src="photo/IMG_20211205_223915_Bokeh.jpg" alt="IMG_20211205_223915_Bokeh.jpg" width="300" class="photo"></a>
     
-    <h2>Main information</h2>
-    <ul>
-        <li>name: Maxim</li>
-        <li>age: 32</li>
-        <li>city: Kharkiv</li>
-        <li>hobby: Petting a cat, admire my wife, play board and pc games</li>
+    <h2 id="info">Main information</h2>
+    <ul class="info-list">
+        <li class="info-item">Name: Maxim</li>
+        <li class="info-item">Age: 32</li>
+        <li class="info-item">City: Kharkiv</li>
+        <li class="info-item">Hobby: Petting a cat, admire my wife, play board and PC games</li>
     </ul>
     
-    <h2>Navigation</h2>
-    <ul>
-        <li><a href="pages/contact.html">Contact</a></li>
-        <li><a href="pages/gallery.html">Gallery</a></li>
+    <h2 id="navigation">Navigation</h2>
+    <ul class="nav-list">
+        <li class="nav-item"><a href="pages/contact.html">Contact</a></li>
+        <li class="nav-item"><a href="pages/gallery.html">Gallery</a></li>
     </ul>
 </body>
 </html>
